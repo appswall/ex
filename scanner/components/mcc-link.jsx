@@ -9,7 +9,7 @@ export function MccLink({ tickers = [] }) {
     
     const symbols = useMemo(() => top8.map(t => t.symbol))
     
-    const url = useMemo(() => `https://www.multicoincharts.com/?c=${symbols.join(",")}&p=1`)
+    const url = useMemo(() => `https://appswall.github.io/?c=${symbols.join(",")}&p=1`)
     
     return <>
       <div class="mcc-link">
